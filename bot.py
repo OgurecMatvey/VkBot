@@ -35,5 +35,3 @@ for event in longpoll.listen():
             if 'access_key' in photo:
                 attachment += f"_{photo['access_key']}"
             write_msg(event.user_id, "", attachment)
-        else:
-            write_msg(event.user_id, "Пожалуйста, отправьте изображение!")
