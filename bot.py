@@ -2,7 +2,7 @@ import vk_api
 from vk_api.longpoll import VkLongPoll, VkEventType
 import random
 
-#users_greeted = set()  #
+#users_greeted = set() 
 
 def write_msg(user_id, message, attachment=None):
     params = {
